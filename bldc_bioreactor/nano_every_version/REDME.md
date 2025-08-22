@@ -1,4 +1,4 @@
-#Arduino code for nano every
+# Arduino code for nano every
 
 ## Calculation of Timers
 
@@ -6,7 +6,7 @@
 rangeFac/(16MHZ/prescaler) = timeout
 rangeFac = timeout * frq / prescaler 
 
-###Prescaler versus timeout range
+### Prescaler versus timeout range
 
 16MHZ - 16bit ~ overflow: 65.536/16MHZ = 4.096 ms
 16MHZ - 16bit ~ overflow: 1/16MHZ = 0 ms        
@@ -26,7 +26,7 @@ prescaler = 256: range 0ms - 1.048576ms; step range: 0.016ms
 
 1rpm = 1/60 rps = 0.0166 rps 
 
-###timeout to rpm
+### timeout to rpm
 
 1 phase ~ 10 deg : 1 rotation 36 phases 
 60 seconds per rotation / 36 phases = 1.66 secoonds per phase 
